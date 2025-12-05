@@ -1,0 +1,36 @@
+body {
+    background-color: lightyellow;
+}
+
+h1 {
+    text-align: center;
+    background-color: orange;
+}
+
+div {
+    display: flex;
+    margin-top: 10px;
+}
+
+img {
+    width: 10%;
+}
+
+p {
+    width: 90%;
+    margin: 0;
+    font-size: 1.5vw;
+    text-align: justify;
+}
+
+#parrafo1 {
+    background-color: red;
+}
+
+#parrafo2 {
+    background-color: blue;
+}
+
+#parrafo3 {
+    background-color: green;
+}

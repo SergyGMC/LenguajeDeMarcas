@@ -1,0 +1,73 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+div {
+    border: 2px solid black;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 3vw;
+
+}
+
+#Caja_1 {
+    background-color: orange;
+    height: 20%;
+}
+
+.Caja_1_1 {
+    width: 20%;
+    align-items: center;
+}
+
+#Caja_2 {
+    background-color: blue;
+    height: 30%;
+}
+
+#Caja_2_1 {
+    width: 70%;
+    align-items: center;
+}
+
+#Caja_2_2 {
+    width: 30%;
+    flex-direction: column;
+}
+
+.Caja_2_2_1 {
+    align-items: center;
+    height: 30%;
+    flex-grow: 1;
+}
+
+#Caja_3 {
+    background-color: yellow;
+    height: 40%;
+}
+
+#Caja_3_1 {
+    width: 15%;
+    align-items: center;
+}
+
+#Caja_3_2 {
+    width: 55%;
+    align-items: center;
+}
+
+#Caja_3_3 {
+    width: 30%;
+    align-items: center;
+}
+
+#Caja_4 {
+    background-color: red;
+    height: 10%;
+    width: 100%;
+}

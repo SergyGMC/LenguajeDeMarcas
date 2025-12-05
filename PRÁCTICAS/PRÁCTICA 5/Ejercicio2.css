@@ -1,0 +1,45 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+div {
+    border: 2px solid black;
+    box-sizing: border-box;
+    display: flex;
+}
+
+p {
+    font-size: 3vw;
+}
+
+
+#Caja_1 {
+    height: 30%;
+    width: 100%;
+    background-color: green;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Caja_2 {
+    height: 70%;
+    width: 100%;
+    background-color: skyblue;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Caja1_1 {
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Caja2_1 {
+    height: 90%;
+    width: 45%;
+    justify-content: center;
+    align-items: center;
+}

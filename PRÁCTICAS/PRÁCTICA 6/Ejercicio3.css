@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color:burlywood
+}
+
+div {
+    display: flex;
+    box-sizing: border-box;
+}
+
+#Caja_1 {
+    height: 30%;
+    width: 100%;
+    margin-bottom: 2vh;
+}
+
+#Imagen_1 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 55%;
+}
+
+#Caja_2 {
+    height: 11%;
+    width: 100%;
+    margin-bottom: 2vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#Encabezado_1 {
+    font-size: 15vmin;
+}
+
+#Caja_3 {
+    height: 5%;
+    width: 100%;
+    margin-bottom: 2vh;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#Lista_1 {
+    width: 100%;
+    font-size: 3vmin;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#Caja_4 {
+    height: 40%;
+    width: 100%;
+    margin-bottom: 2vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Caja_4_1 {
+    height: 100%;
+    width: 31%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.Caja_4_1_1 {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    background-color: antiquewhite;
+    font-size: vmin;
+}
+
+.Parrafo_1 {
+    font-size: 5vmin;
+}
+
+.Parrafo_2 {
+    font-size: 2vmin;
+}
+
+.Caja_4_1_2 {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Imagen_2 {
+    height: 90%;
+    width: 100%;
+}
+
+#Caja_5 {
+    height: 6%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    color: white;
+}

@@ -1,0 +1,28 @@
+div {
+    display: flex;
+    width: 600px;
+    height: 200px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: cyan;
+}
+
+img {
+    width: 200px;
+    background-color: lightgreen;
+}
+
+p {
+    margin: 0;
+    width: 200px;
+}
+
+.parrafos1 {
+    text-align: left;
+    background-color: burlywood;
+}
+
+.parrafos2 {
+    text-align: right;
+    background-color: green;
+}

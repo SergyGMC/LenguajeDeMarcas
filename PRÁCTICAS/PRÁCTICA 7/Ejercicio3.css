@@ -19,6 +19,10 @@ div {
     margin-bottom: 2vh;
 }
 
+#EnlaceImagen {
+    width: 100%;
+}
+
 #Imagen_1 {
     height: 100%;
     width: 100%;

@@ -1,0 +1,15 @@
+#celdaVerde {
+    background-color: green;
+}
+
+#celdaNaranja {
+    background-color: lightsalmon;
+}
+
+#celdaAmarilla {
+    background-color: lightgoldenrodyellow;
+}
+
+td {
+    text-align: center;
+}

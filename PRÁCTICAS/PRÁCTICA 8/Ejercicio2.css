@@ -1,0 +1,11 @@
+.celdaAzul {
+    background-color: cadetblue;
+}
+
+.celdaVerde {
+    background-color: lightgreen;
+}
+
+td {
+    text-align: center;
+}

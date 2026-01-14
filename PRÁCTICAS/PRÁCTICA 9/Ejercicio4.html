@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Ejercicio4.css">
+</head>
+<body>
+    <form>
+        <table border="3">
+            <tr id="datos">
+                <td>Name</td>
+                <td>Value</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>
+                    <input type="text" name="control1" id="name">
+                </td>
+            </tr>
+            <tr>
+                <td>Sex</td>
+                <td>
+                    <input type="radio" name="control2" id="male">
+                    <label for="male">Male</label>
+                    <br>
+                    <input type="radio" name="control2" id="female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Eye color</td>
+                <td>
+                    <select name="control3" id="eyeColor">
+                        <option value="green">Green</option>
+                        <option value="blue">Blue</option>
+                        <option value="brown">Brown</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Check all that apply</td>
+                <td>
+                    <input type="checkbox" name="control3" id="feet">
+                    <label for="feet">Over 6 feet tall</label>
+                    <br>
+                    <input type="checkbox" name="control4" id="pounds">
+                    <label for="pounds">Over 200 pounds</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="athAbiliry">Describe your athletic ability:</label>
+                    <br>
+                    <textarea name="control5" id="athAbiliry" rows="5" cols="40"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" id="boton">
+                    <button type="submit">Enter my information</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

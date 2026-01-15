@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+}
+
+div {
+    display: flexbox;
+}
+
+#caja1 {
+    height: 5%;
+    width: 100%;
+    font-size: 3vw;
+    text-align: center;
+}
+
+#caja2 {
+    height: 5%;
+    width: 100%;
+    text-align: center;
+}
+
+#caja3 {
+    height: 25%;
+    width: 100%;
+}
+
+#caja4 {
+    height: 5%;
+    width: 100%;
+}
+
+#caja5 {
+    height: 25%;
+    width: 100%;
+}
+
+#caja6 {
+    height: 5%;
+    width: 100%;
+}
+
+#caja7 {
+    height: 25%;
+    width: 100%;
+}
+
+a {
+    font-size: 2vw;
+}
+
+a:hover {
+    font-size: 2.2vw;
+}
+
+.video {
+    height: 100%;
+    width: 60%;
+    object-fit: cover;
+}
+
+.parrafoExplicativo {
+    width: 40%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+    font-size: 1vw;
+}

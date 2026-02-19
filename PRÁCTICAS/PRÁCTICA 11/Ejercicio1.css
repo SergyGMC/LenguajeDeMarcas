@@ -9,11 +9,11 @@ body, html {
 }
 
 html {
-    font-size: 16px;
+    font-size: 16px; /* Define el "rem" para las siguientes veces que se cambie le tamaño del texto */
 }
 
 p {
-    font-size: 0.9rem;
+    font-size: 0.9rem; /* 90% del tamaño definido en la etiqueta "html" */
     text-align: justify;
     color: white;
 }
@@ -25,7 +25,7 @@ h1, h2, h3 {
 
 h1 {
     font-size: 3rem;
-    letter-spacing: 1.3em;
+    letter-spacing: 1.3rem;
 }
 
 h2 {

@@ -6,6 +6,16 @@ div {
     display: flexbox;
 }
 
+a {
+    text-decoration: none;
+    color: rgb(182, 182, 182);
+    font-size: 2vw;
+}
+a.hover {
+    color: white;
+    font: 2.2vw;
+}
+
 #caja1 {
     height: 5%;
     width: 100%;
@@ -22,6 +32,7 @@ div {
 #caja3 {
     height: 25%;
     width: 100%;
+    align-items: center;
 }
 
 #caja4 {
@@ -55,7 +66,7 @@ a:hover {
 .video {
     height: 100%;
     width: 60%;
-    object-fit: cover;
+    
 }
 
 .parrafoExplicativo {

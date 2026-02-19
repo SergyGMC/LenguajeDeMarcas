@@ -83,80 +83,29 @@ main {
     background-size: cover;
     border-top: solid white 0.2rem;
     border-bottom: solid white 0.2rem;
+    justify-content: space-evenly;
 }
 
 aside {
     height: 100%;
-    width: 20%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+        background-color: rgb(255,255,255,0.2);
 }
 
-aside figure {
-    height: 55%;
-    width: 90%;
-}
-
-aside img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-aside p {
-    width: 90%;
-}
-
-section {
-    height: 100%;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-#articulos {
-    height: 80%;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-
-.texto-articulo {
+article {
     height: 100%;
     width: 40%;
     display: flex;
-    flex: column;
-    justify-content: space-around;
-}
-
-article{
-    height: 100%;
-    width: 45%;
-    display: flex;
-
-    justify-content: space-around;
-    align-items: center;
-    background-color: rgba(255,255,255, 0.2);
+    flex-direction: column;
+    background-color: rgb(255,255,255,0.2);
 }
 
 article > figure {
-    height: 80%;
-    width: 55%;
-}
-
-article img {
-    height: 90%;
-    width: 100%;
     object-fit: cover;
-    border-radius: 30%;
-}
-
-article figcaption {
-    text-align: center;
-    color: white, 0.8rem;
+    align-self: center;
 }
 
 footer {

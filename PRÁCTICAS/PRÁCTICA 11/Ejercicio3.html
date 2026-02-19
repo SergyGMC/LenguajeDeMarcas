@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Ejercicio3.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="Ejercicio1.html"><h1>UN<span>IT</span>VERSO</h1></a>
+
+        <nav>
+            <ul>
+            <li><a href="#">It - Eso (1990)</a></li>
+            <li><a href="Ejercicio2.html">It. Capítulo 1 (2017)</a></li>
+            <li><a href="#">It. Capítulo 2 (2019)</a></li>
+            <li><a href="#">It: Bienvenidos a Derry (2025)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <article>
+            <h2>Formulario de contacto</h2>
+            <form>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="nombre">Nombre y apellidos</label>
+                            <input type="text" name="control1" id="nombre">
+                        </td>
+                        <td>
+                            <label for="correo">Correo electronico</label>
+                            <input type="text" name="control2" id="correo">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <p>¿Película favorita?</p>
+                        </td>
+                        <td>
+                            <input type="radio" name="control3" id="peli">
+                            <label for="peli">It - Eso (1990)</label>
+                            <input type="radio" name="control3" id="peli">
+                            <label for="peli">It. Capítulo 1 (2017)</label>
+                            <input type="radio" name="control3" id="peli">
+                            <label for="peli">It. Capítulo 2 (2019)</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="control4" id="vista">
+                            <label for="vista">¿Has visto la serie?</label>
+                        </td>
+                        <td>
+                            <label for="listaPeli">Capítulo favorito: </label>
+                            <select name="control5" id="listaPeli">
+                                <option value="sleccionada">-- Selecciona un capítulo --</option>
+                                <option value="cap1">Capítulo 1</option>
+                                <option value="cap2">Capítulo 2</option>
+                                <option value="cap3">Capítulo 3</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <textarea name="control6" id="comentarios" rows="7" cols="70">Comentarios...</textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <button type="reset">Borrar</button>
+                        </td>
+                        <td>
+                            <button type="submit">Enviar</button>
+                        </td>
+                    </tr>
+
+                </table>
+            </form>
+        </article>
+
+    </main>
+
+    <footer>
+        <nav>
+            <a href="#">Aviso legal &nbsp;|&nbsp</a>
+            <a href="#">Política de privacidad &nbsp;|&nbsp</a>
+            <a href="Ejercicio3.html">Contacto &nbsp;|&nbsp</a>
+        </nav>
+    </footer>
+</body>
+</html>

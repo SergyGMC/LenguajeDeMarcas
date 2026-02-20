@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/formulario.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <figure>
+            <a href="index.html"><img src="IMG/logo.png" alt="Logo de Jurassic Park"></a>
+        </figure>
+        <h1><u>JURASSIC PARK</u></h1>
+    </header>
+
+    <div id="div1">
+        <nav>
+            <ul type="circle">
+                <li><a href="#">Película</a></li>
+                <li><a href="#">Libro</a></li>
+                <li><a href="#">Premios</a></li>
+                <li><a href="formulario.html">Comprar</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h2>FORMULARIO DE COMPRA</h2>
+            <a href="#final" id="inicio">Ir al final</a>
+
+            <form>
+                <table>
+                    <tr>
+                        <td colspan="2" class="seccion">Datos personales</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label for="nombre">Nombre y apellidos</label>
+                            <input type="text" name="control1" id="nombre">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label for="correo">Correo electrónico</label>
+                            <input type="text" name="control2" id="correo">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="seccion">Tu pedido</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="control3" id="peli">
+                            <label for="peli">Película</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="control4" id="libro">
+                            <label for="libro">Libro</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="seccion">Dirección de entrega</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="direccion">Dirección:</label>
+                        </td>
+                        <td>
+                            <textarea name="control5" id="direccion" rows="1">Tu dirección</textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="provincia">Provincia:</label>
+                        </td>
+                        <td>
+                            <select name="control6" id="provincia">
+                                <option value="defecto">- Escoge -</option>
+                                <option value="madrid">Madrid</option>
+                                <option value="barcelona">Barcelona</option>
+                                <option value="andalucia">Andalucía</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="tipo">Tipo de entrega:</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="control7" id="normal">
+                            <label for="normal">Normal</label>
+                            <input type="radio" name="control7" id="express">
+                            <label for="express">Express</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="comentarios">Comentarios:</label>
+                        </td>
+                        <td>
+                            <textarea name="control8" id="comentarios" rows="3">Tu dirección</textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="seccion">Pago</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label for="titular">Titular</label>
+                            <input type="text" name="control9" id="titular">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="tarjeta">Tipo de tarjeta</label>
+                            <select name="control10" id="tarjeta">
+                                <option value="defecto">- Escoge -</option>
+                                <option value="visa">Visa</option>
+                                <option value="mastercard">Mastercard</option>
+                                <option value="amex">American Express</option>
+                            </select>
+                        </td>
+                        <td>
+                            <label for="cvv">CVV</label>
+                            <input type="text" name="contorl11" id="cvv">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label for="numTarjeta">Número de tarjeta</label>
+                            <input type="password" name="control12" id="numTarjeta">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label for="caducidad">Caducidad:</label>
+                            <input type="date" name="control13" id="caducidad">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="seccion">Confirmación</td>
+                    </tr>
+                    <tr id="botones">
+                        <td><button type="reset">Borrar campos</button></td>
+                        <td><button type="submit">Hacer pedido</button></td>
+                    </tr>
+                </table>
+
+            </form>
+
+            <a href="#inicio" id="final">Ir al inicio</a>
+        </main>
+
+    </div>
+
+    <footer>
+        <nav>
+            <a href="#">Aviso legal &nbsp;|&nbsp</a>  <!-- &nbsp;|&nbsp fuerza un espacio, imprime una barra y fuerza otro espacio -->
+            <a href="#">Política de privacidad &nbsp;|&nbsp</a>  <!-- &nbsp;|&nbsp fuerza un espacio, imprime una barra y fuerza otro espacio -->
+            <a href="#">Contacto &nbsp;|&nbsp</a>  <!-- &nbsp;|&nbsp fuerza un espacio, imprime una barra y fuerza otro espacio -->
+        </nav>
+    </footer>
+</body>
+</html>

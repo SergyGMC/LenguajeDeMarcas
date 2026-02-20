@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+html {
+    font-size: 16px;
+}
+
+p {
+    font-size: 1rem;
+    text-align: justify;
+    color: white;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 7rem;
+    letter-spacing: 4rem;
+}
+
+h2 {
+    color: red;
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 2rem;
+    border-color: red;
+}
+
+h3 {
+    text-align: center;
+    color: yellow;
+}
+
+header u {
+    text-decoration:underline yellow 2px;
+}
+
+header {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    background-color: black;
+    justify-content: space-between ;
+    align-items: center;
+}
+
+header > figure {
+    height: 100%;
+}
+
+header img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+div {
+    display: flex;
+}
+
+#div1 {
+    height: 75%;
+}
+
+div > nav {
+    height: 100%;
+    width: 10%;
+    background-color: black;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a {
+    color: red;
+    text-decoration: none;
+}
+
+div > main {
+    height: 100%;
+    width: 100%;
+    background-image: url(../IMG/fondo.jpeg);
+    background-size: cover;
+}
+
+#div2 {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+div > article {
+    flex-direction: column;
+    align-items: center;
+}
+
+#div3 {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#div3 > article {
+    width: 40%;
+}
+
+#div3 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+footer {
+    border-top: 5px;
+    border-color: yellow;
+    height: 5%;
+    background-color: black;
+}
+
+footer > nav {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: red;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+

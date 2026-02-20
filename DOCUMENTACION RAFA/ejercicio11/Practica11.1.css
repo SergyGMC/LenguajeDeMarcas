@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+#titulo {
+    color: red;
+}
+
+html {
+    font-size: 22px;
+}
+
+p {
+    font-size: 0.9rem;
+    color: white;
+    text-align: justify;
+}
+
+h1,
+h2,
+h3 {
+    color: red;
+    text-align: center;
+}
+
+h1 {
+    letter-spacing: 1.3rem;
+    font-size: 3rem;
+}
+
+h1:hover {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+h3 {
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
+span {
+    font-size: 5rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+header {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(https://revistakinemabooks.com/wp-content/uploads/2025/12/captura-de-pantalla-2025-12-19-093533.png);
+    background-size: cover;
+    background-position: 50%50%;
+}
+
+header>nav {
+    height: 15%;
+    width: 100%;
+}
+
+header>nav>ul {
+    height: 100%;
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+main {
+    height: 54%;
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://images4.alphacoders.com/104/thumb-1920-1049412.jpg);
+    background-size: cover;
+    margin-bottom: 0.2rem;
+    margin-top: 0.2rem;
+}
+
+aside {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+aside>figure {
+    height: 55%;
+    width: 90%;
+}
+
+aside>figure>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+aside>p {
+    width: 90%;
+}
+
+section {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#articulos {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.texto-articulo {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+article {
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+article>figure {
+    height: 80%;
+    width: 55%;
+}
+
+article>figure>img {
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30%;
+}
+
+article>figure>figcaption {
+    text-align: center;
+    color: white;
+    font-size: 0.8rem;
+}
+
+footer {
+    height: 5%;
+    background-color: black;
+}
+
+footer>nav {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    color: white;
+}
+
+footer>nav>ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
